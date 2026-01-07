@@ -1,6 +1,6 @@
 // src/middlewares/auth.middleware.ts
 import { getAuthStore } from "@/store/auth/auth.store";
-import { useRouter } from "next/navigation";
+// import { useRouter } from "next/navigation";
 
 export const ensureAuthClient = (redirectTo = "/auth/login") => {
   const auth = getAuthStore();

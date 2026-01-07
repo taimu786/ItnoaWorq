@@ -8,10 +8,11 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Button } from "@/components/ui/button";
 import { Toaster } from "@/components/ui/sonner";
+import { toast } from "sonner";
+import type { AxiosError } from "axios";
 
 export default function LoginPage() {
   const router = useRouter();
-  const { toast } = Toaster();
   const login = useAuthStore((s) => s.login);
   const loading = useAuthStore((s) => s.loading);
   const user = useAuthStore((s) => s.user);
@@ -27,19 +28,23 @@ export default function LoginPage() {
     e.preventDefault();
     try {
       await login({ email, password, rememberMe });
-      toast({ title: "Welcome back!", description: "Logged in successfully." });
+      toast("Welcome back!", {
+        description: "Logged in successfully.",
+      });
       router.push("/dashboard");
-    } catch (err: any) {
-      toast({
-        title: "Login failed",
-        description: err?.response?.data || err.message,
-        variant: "destructive",
+    } catch (err: unknown) {
+      const error = err as AxiosError<{ message?: string }>;
+      const apiMessage = error.response?.data?.message;
+
+      toast("Login failed", {
+        description: apiMessage || (err as Error).message,
       });
     }
   };
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-muted/20">
+      <Toaster />
       <Card className="w-full max-w-md">
         <CardHeader>
           <CardTitle className="text-center text-2xl">Sign in to ItnoaWorq</CardTitle>

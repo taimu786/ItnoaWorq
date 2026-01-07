@@ -1,6 +1,6 @@
 // src/store/auth/auth.store.ts
 import { create } from "zustand";
-import { AuthService, LoginRequest, LoginResponse } from "@/services/auth/auth.service";
+import { AuthService, LoginRequest, RegisterRequest } from "@/services/auth/auth.service";
 
 export type User = {
   id: string;
@@ -15,7 +15,7 @@ type AuthState = {
   loading: boolean;
   setToken: (t: string | null) => void;
   login: (payload: LoginRequest) => Promise<void>;
-  register: (payload: any) => Promise<void>;
+  register: (payload: RegisterRequest) => Promise<void>;
   logout: () => Promise<void>;
   init: () => Promise<void>; // attempt bootstrap (refresh -> me)
   getToken: () => string | null;
@@ -40,7 +40,7 @@ export const useAuthStore = create<AuthState>((set, get) => ({
     }
   },
 
-  register: async (payload) => {
+  register: async (payload: RegisterRequest) => {
     set({ loading: true });
     try {
       await AuthService.register(payload);
@@ -104,7 +104,6 @@ export const useAuthStore = create<AuthState>((set, get) => ({
 export const getAuthStore = () => ({
   getToken: () => {
     try {
-      // @ts-ignore
       return useAuthStore.getState().token as string | null;
     } catch {
       return null;
@@ -112,13 +111,11 @@ export const getAuthStore = () => ({
   },
   setToken: (t: string | null) => {
     try {
-      // @ts-ignore
       useAuthStore.setState({ token: t });
     } catch {}
   },
   logout: async () => {
     try {
-      // @ts-ignore
       await useAuthStore.getState().logout();
     } catch {}
   },

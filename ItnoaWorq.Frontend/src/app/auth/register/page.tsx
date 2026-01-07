@@ -8,10 +8,11 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Button } from "@/components/ui/button";
 import { Toaster } from "@/components/ui/sonner";
+import { toast } from "sonner";
+import { AxiosError } from "axios";
 
 export default function RegisterPage() {
   const router = useRouter();
-  const { toast } = Toaster();
   const register = useAuthStore((s) => s.register);
   const loading = useAuthStore((s) => s.loading);
 
@@ -23,19 +24,25 @@ export default function RegisterPage() {
     e.preventDefault();
     try {
       await register({ fullName, email, password });
-      toast({ title: "Account created!", description: "Redirecting to dashboard..." });
-      router.push("/dashboard");
-    } catch (err: any) {
-      toast({
-        title: "Registration failed",
-        description: err?.response?.data || err.message,
-        variant: "destructive",
+      toast("Account created!", {
+        description: "Redirecting to dashboard...",
       });
+      router.push("/dashboard");
+    } catch (err: unknown) {
+      const description =
+        typeof err === "object" && err !== null && "response" in err
+          ? (err as { response?: { data?: string } }).response?.data || (err as AxiosError).message
+          : err instanceof Error
+          ? err.message
+          : "Registration failed";
+
+      toast("Registration failed", { description });
     }
   };
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-muted/20">
+      <Toaster />
       <Card className="w-full max-w-md">
         <CardHeader>
           <CardTitle className="text-center text-2xl">Create your ItnoaWorq account</CardTitle>

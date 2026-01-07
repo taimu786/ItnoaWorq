@@ -9,7 +9,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en">
       <body>
         <AuthBootstrap>{children}</AuthBootstrap>
-        <Toaster richColors />
+        <Toaster />
       </body>
     </html>
   );
