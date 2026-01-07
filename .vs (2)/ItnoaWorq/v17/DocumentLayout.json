@@ -1,0 +1,258 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Repos\\ItnoaWorq\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{54E7C656-B5D0-4CEA-97B0-17CA8C6919F8}|ItnoaWorq.Api\\ItnoaWorq.Api.csproj|d:\\repos\\itnoaworq\\itnoaworq.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54E7C656-B5D0-4CEA-97B0-17CA8C6919F8}|ItnoaWorq.Api\\ItnoaWorq.Api.csproj|solutionrelative:itnoaworq.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54E7C656-B5D0-4CEA-97B0-17CA8C6919F8}|ItnoaWorq.Api\\ItnoaWorq.Api.csproj|d:\\repos\\itnoaworq\\itnoaworq.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54E7C656-B5D0-4CEA-97B0-17CA8C6919F8}|ItnoaWorq.Api\\ItnoaWorq.Api.csproj|solutionrelative:itnoaworq.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54E7C656-B5D0-4CEA-97B0-17CA8C6919F8}|ItnoaWorq.Api\\ItnoaWorq.Api.csproj|d:\\repos\\itnoaworq\\itnoaworq.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{54E7C656-B5D0-4CEA-97B0-17CA8C6919F8}|ItnoaWorq.Api\\ItnoaWorq.Api.csproj|solutionrelative:itnoaworq.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54E7C656-B5D0-4CEA-97B0-17CA8C6919F8}|ItnoaWorq.Api\\ItnoaWorq.Api.csproj|d:\\repos\\itnoaworq\\itnoaworq.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{54E7C656-B5D0-4CEA-97B0-17CA8C6919F8}|ItnoaWorq.Api\\ItnoaWorq.Api.csproj|solutionrelative:itnoaworq.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54E7C656-B5D0-4CEA-97B0-17CA8C6919F8}|ItnoaWorq.Api\\ItnoaWorq.Api.csproj|d:\\repos\\itnoaworq\\itnoaworq.api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54E7C656-B5D0-4CEA-97B0-17CA8C6919F8}|ItnoaWorq.Api\\ItnoaWorq.Api.csproj|solutionrelative:itnoaworq.api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC094368-5639-46DE-9142-E7B02C2F32EB}|ItnoaWorq.Infrastructure\\ItnoaWorq.Infrastructure.csproj|d:\\repos\\itnoaworq\\itnoaworq.infrastructure\\persistence\\hrmsdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC094368-5639-46DE-9142-E7B02C2F32EB}|ItnoaWorq.Infrastructure\\ItnoaWorq.Infrastructure.csproj|solutionrelative:itnoaworq.infrastructure\\persistence\\hrmsdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC094368-5639-46DE-9142-E7B02C2F32EB}|ItnoaWorq.Infrastructure\\ItnoaWorq.Infrastructure.csproj|d:\\repos\\itnoaworq\\itnoaworq.infrastructure\\seeders\\identityseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC094368-5639-46DE-9142-E7B02C2F32EB}|ItnoaWorq.Infrastructure\\ItnoaWorq.Infrastructure.csproj|solutionrelative:itnoaworq.infrastructure\\seeders\\identityseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC094368-5639-46DE-9142-E7B02C2F32EB}|ItnoaWorq.Infrastructure\\ItnoaWorq.Infrastructure.csproj|d:\\repos\\itnoaworq\\itnoaworq.infrastructure\\security\\jwttokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC094368-5639-46DE-9142-E7B02C2F32EB}|ItnoaWorq.Infrastructure\\ItnoaWorq.Infrastructure.csproj|solutionrelative:itnoaworq.infrastructure\\security\\jwttokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC094368-5639-46DE-9142-E7B02C2F32EB}|ItnoaWorq.Infrastructure\\ItnoaWorq.Infrastructure.csproj|d:\\repos\\itnoaworq\\itnoaworq.infrastructure\\infrastructuredi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC094368-5639-46DE-9142-E7B02C2F32EB}|ItnoaWorq.Infrastructure\\ItnoaWorq.Infrastructure.csproj|solutionrelative:itnoaworq.infrastructure\\infrastructuredi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC094368-5639-46DE-9142-E7B02C2F32EB}|ItnoaWorq.Infrastructure\\ItnoaWorq.Infrastructure.csproj|d:\\repos\\itnoaworq\\itnoaworq.infrastructure\\persistence\\hrmsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC094368-5639-46DE-9142-E7B02C2F32EB}|ItnoaWorq.Infrastructure\\ItnoaWorq.Infrastructure.csproj|solutionrelative:itnoaworq.infrastructure\\persistence\\hrmsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC094368-5639-46DE-9142-E7B02C2F32EB}|ItnoaWorq.Infrastructure\\ItnoaWorq.Infrastructure.csproj|d:\\repos\\itnoaworq\\itnoaworq.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC094368-5639-46DE-9142-E7B02C2F32EB}|ItnoaWorq.Infrastructure\\ItnoaWorq.Infrastructure.csproj|solutionrelative:itnoaworq.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1F32681-C8FC-4A8B-8DA3-FD697EE71DEA}|ItnoaWorq.Application\\ItnoaWorq.Application.csproj|d:\\repos\\itnoaworq\\itnoaworq.application\\abstraction\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1F32681-C8FC-4A8B-8DA3-FD697EE71DEA}|ItnoaWorq.Application\\ItnoaWorq.Application.csproj|solutionrelative:itnoaworq.application\\abstraction\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1F32681-C8FC-4A8B-8DA3-FD697EE71DEA}|ItnoaWorq.Application\\ItnoaWorq.Application.csproj|d:\\repos\\itnoaworq\\itnoaworq.application\\features\\profiles\\handlers\\getmyprofilehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1F32681-C8FC-4A8B-8DA3-FD697EE71DEA}|ItnoaWorq.Application\\ItnoaWorq.Application.csproj|solutionrelative:itnoaworq.application\\features\\profiles\\handlers\\getmyprofilehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1F32681-C8FC-4A8B-8DA3-FD697EE71DEA}|ItnoaWorq.Application\\ItnoaWorq.Application.csproj|d:\\repos\\itnoaworq\\itnoaworq.application\\features\\profiles\\queries\\getmyprofilequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1F32681-C8FC-4A8B-8DA3-FD697EE71DEA}|ItnoaWorq.Application\\ItnoaWorq.Application.csproj|solutionrelative:itnoaworq.application\\features\\profiles\\queries\\getmyprofilequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "D:\\Repos\\ItnoaWorq\\ItnoaWorq.Api\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "ItnoaWorq.Api\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "D:\\Repos\\ItnoaWorq\\ItnoaWorq.Api\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "ItnoaWorq.Api\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T01:20:34.547Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HrmsDbContextFactory.cs",
+              "DocumentMoniker": "D:\\Repos\\ItnoaWorq\\ItnoaWorq.Infrastructure\\Persistence\\HrmsDbContextFactory.cs",
+              "RelativeDocumentMoniker": "ItnoaWorq.Infrastructure\\Persistence\\HrmsDbContextFactory.cs",
+              "ToolTip": "D:\\Repos\\ItnoaWorq\\ItnoaWorq.Infrastructure\\Persistence\\HrmsDbContextFactory.cs",
+              "RelativeToolTip": "ItnoaWorq.Infrastructure\\Persistence\\HrmsDbContextFactory.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAqwCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T01:17:20.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\Repos\\ItnoaWorq\\ItnoaWorq.Api\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "ItnoaWorq.Api\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\Repos\\ItnoaWorq\\ItnoaWorq.Api\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "ItnoaWorq.Api\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAqwBAAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T09:34:45.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IdentitySeed.cs",
+              "DocumentMoniker": "D:\\Repos\\ItnoaWorq\\ItnoaWorq.Infrastructure\\Seeders\\IdentitySeed.cs",
+              "RelativeDocumentMoniker": "ItnoaWorq.Infrastructure\\Seeders\\IdentitySeed.cs",
+              "ToolTip": "D:\\Repos\\ItnoaWorq\\ItnoaWorq.Infrastructure\\Seeders\\IdentitySeed.cs",
+              "RelativeToolTip": "ItnoaWorq.Infrastructure\\Seeders\\IdentitySeed.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T09:34:17.379Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Repos\\ItnoaWorq\\ItnoaWorq.Api\\Program.cs",
+              "RelativeDocumentMoniker": "ItnoaWorq.Api\\Program.cs",
+              "ToolTip": "D:\\Repos\\ItnoaWorq\\ItnoaWorq.Api\\Program.cs",
+              "RelativeToolTip": "ItnoaWorq.Api\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T03:48:20.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Repos\\ItnoaWorq\\ItnoaWorq.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "ItnoaWorq.Api\\appsettings.json",
+              "ToolTip": "D:\\Repos\\ItnoaWorq\\ItnoaWorq.Api\\appsettings.json",
+              "RelativeToolTip": "ItnoaWorq.Api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-22T01:20:35.638Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "JwtTokenService.cs",
+              "DocumentMoniker": "D:\\Repos\\ItnoaWorq\\ItnoaWorq.Infrastructure\\Security\\JwtTokenService.cs",
+              "RelativeDocumentMoniker": "ItnoaWorq.Infrastructure\\Security\\JwtTokenService.cs",
+              "ToolTip": "D:\\Repos\\ItnoaWorq\\ItnoaWorq.Infrastructure\\Security\\JwtTokenService.cs",
+              "RelativeToolTip": "ItnoaWorq.Infrastructure\\Security\\JwtTokenService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T09:34:04.584Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HrmsDbContext.cs",
+              "DocumentMoniker": "D:\\Repos\\ItnoaWorq\\ItnoaWorq.Infrastructure\\Persistence\\HrmsDbContext.cs",
+              "RelativeDocumentMoniker": "ItnoaWorq.Infrastructure\\Persistence\\HrmsDbContext.cs",
+              "ToolTip": "D:\\Repos\\ItnoaWorq\\ItnoaWorq.Infrastructure\\Persistence\\HrmsDbContext.cs",
+              "RelativeToolTip": "ItnoaWorq.Infrastructure\\Persistence\\HrmsDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T09:28:54.178Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "D:\\Repos\\ItnoaWorq\\ItnoaWorq.Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "ItnoaWorq.Infrastructure\\Repositories\\UserRepository.cs",
+              "ToolTip": "D:\\Repos\\ItnoaWorq\\ItnoaWorq.Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "ItnoaWorq.Infrastructure\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T09:13:09.901Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\Repos\\ItnoaWorq\\ItnoaWorq.Api\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "ItnoaWorq.Api\\appsettings.Development.json",
+              "ToolTip": "D:\\Repos\\ItnoaWorq\\ItnoaWorq.Api\\appsettings.Development.json",
+              "RelativeToolTip": "ItnoaWorq.Api\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-22T01:20:42.015Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "D:\\Repos\\ItnoaWorq\\ItnoaWorq.Application\\Abstraction\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "ItnoaWorq.Application\\Abstraction\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "D:\\Repos\\ItnoaWorq\\ItnoaWorq.Application\\Abstraction\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "ItnoaWorq.Application\\Abstraction\\Interfaces\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T09:12:39.227Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "InfrastructureDI.cs",
+              "DocumentMoniker": "D:\\Repos\\ItnoaWorq\\ItnoaWorq.Infrastructure\\InfrastructureDI.cs",
+              "RelativeDocumentMoniker": "ItnoaWorq.Infrastructure\\InfrastructureDI.cs",
+              "ToolTip": "D:\\Repos\\ItnoaWorq\\ItnoaWorq.Infrastructure\\InfrastructureDI.cs",
+              "RelativeToolTip": "ItnoaWorq.Infrastructure\\InfrastructureDI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T08:52:38.608Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "GetMyProfileHandler.cs",
+              "DocumentMoniker": "D:\\Repos\\ItnoaWorq\\ItnoaWorq.Application\\Features\\Profiles\\Handlers\\GetMyProfileHandler.cs",
+              "RelativeDocumentMoniker": "ItnoaWorq.Application\\Features\\Profiles\\Handlers\\GetMyProfileHandler.cs",
+              "ToolTip": "D:\\Repos\\ItnoaWorq\\ItnoaWorq.Application\\Features\\Profiles\\Handlers\\GetMyProfileHandler.cs",
+              "RelativeToolTip": "ItnoaWorq.Application\\Features\\Profiles\\Handlers\\GetMyProfileHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T01:46:28.994Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "GetMyProfileQuery.cs",
+              "DocumentMoniker": "D:\\Repos\\ItnoaWorq\\ItnoaWorq.Application\\Features\\Profiles\\Queries\\GetMyProfileQuery.cs",
+              "RelativeDocumentMoniker": "ItnoaWorq.Application\\Features\\Profiles\\Queries\\GetMyProfileQuery.cs",
+              "ToolTip": "D:\\Repos\\ItnoaWorq\\ItnoaWorq.Application\\Features\\Profiles\\Queries\\GetMyProfileQuery.cs",
+              "RelativeToolTip": "ItnoaWorq.Application\\Features\\Profiles\\Queries\\GetMyProfileQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T01:46:23.535Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
