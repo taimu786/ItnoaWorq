@@ -3,6 +3,7 @@ using ItnoaWorq.Infrastructure.Security;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using System.Data;
 
 namespace ItnoaWorq.Api.Controllers;
 
@@ -43,6 +44,15 @@ public class AuthController : ControllerBase
         if (!ok.Succeeded) return Unauthorized();
 
         var (token, exp) = await _jwt.CreateAccessTokenAsync(user);
-        return Ok(new { token, exp, userId = user.Id });
+        return Ok(new
+        {
+            token = token,
+            user = new
+            {
+                id = user.Id,
+                email = user.Email,
+                fullName = user.FullName,
+            }
+        });
     }
 }

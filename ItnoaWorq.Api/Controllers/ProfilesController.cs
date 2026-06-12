@@ -4,6 +4,7 @@ using ItnoaWorq.Application.Features.Profiles.Queries;
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using System.Security.Claims;
 
 namespace ItnoaWorq.Api.Controllers;
 
@@ -21,8 +22,12 @@ public class ProfilesController : ControllerBase
         _httpContext = httpContext;
     }
 
-    private Guid GetUserId() =>
-        Guid.Parse(_httpContext.HttpContext!.User.Claims.First(c => c.Type == "uid").Value);
+    private Guid GetUserId()
+    {
+        var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+
+        return Guid.Parse(userId!);
+    }
 
     [HttpGet("me")]
     public async Task<ActionResult<ProfileDto>> GetMyProfile() =>

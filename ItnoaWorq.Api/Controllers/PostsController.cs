@@ -1,9 +1,10 @@
-﻿using MediatR;
-using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Mvc;
-using ItnoaWorq.Application.Common.DTOs;
+﻿using ItnoaWorq.Application.Common.DTOs;
 using ItnoaWorq.Application.Features.Posts.Commands;
 using ItnoaWorq.Application.Features.Posts.Queries;
+using MediatR;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+using System.Security.Claims;
 
 namespace ItnoaWorq.Api.Controllers;
 
@@ -20,8 +21,12 @@ public class PostsController : ControllerBase
         _http = http;
     }
 
-    private Guid GetUserId() =>
-        Guid.Parse(_http.HttpContext!.User.Claims.First(c => c.Type == "uid").Value);
+    private Guid GetUserId()
+    {
+        var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+
+        return Guid.Parse(userId!);
+    }
 
     [HttpPost]
     [Authorize]

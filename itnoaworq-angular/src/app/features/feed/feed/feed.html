@@ -1,0 +1,43 @@
+<div class="max-w-2xl mx-auto mt-6">
+
+  <!-- CREATE POST -->
+  <div class="bg-white p-4 shadow rounded mb-4">
+    <input [(ngModel)]="content"
+           placeholder="Start a post..."
+           class="w-full border p-2 rounded" />
+
+    <button (click)="createPost()"
+            class="mt-2 bg-blue-600 text-white px-4 py-2 rounded">
+      Post
+    </button>
+  </div>
+
+  <!-- POSTS -->
+  <div *ngFor="let post of posts" class="bg-white p-4 shadow rounded mb-4">
+
+    <p class="mb-2">{{ post.content }}</p>
+
+    <div class="flex gap-4 text-sm text-gray-600">
+      <button (click)="react(post.id, 0)">👍 Like</button>
+      <button (click)="react(post.id, 1)">❤️ Love</button>
+    </div>
+
+    <!-- COMMENTS -->
+    <div class="mt-3">
+
+      <div *ngFor="let c of post.comments" class="text-sm mb-1">
+        {{ c.content }}
+      </div>
+
+      <div class="flex gap-2 mt-2">
+        <input #commentInput class="border p-1 flex-1 rounded" />
+        <button (click)="comment(post.id, commentInput)">
+          Send
+        </button>
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
