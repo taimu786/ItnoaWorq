@@ -387,6 +387,15 @@ src/
 
 ---
 
+## What's Missing / Known Issues
+
+### Already Fixed
+- ~~`AddEducationCommand.cs` had wrong record name (`ApplyForJobCommand`)~~
+- ~~`AddEducationHandler` implemented wrong command~~
+- ~~`GetMyProfileQuery.cs` had wrong record name (`GetJobByIdQuery`)~~
+- ~~`GetMyProfileHandler` implemented wrong query~~
+- ~~`ProfilesController` used wrong command/query types~~
+
 ### Still Pending
 - No FluentValidation validators written for any command
 - No global exception handling middleware in API

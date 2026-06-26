@@ -5,13 +5,13 @@ using MediatR;
 
 namespace ItnoaWorq.Application.Features.Profiles.Handlers;
 
-public class AddEducationHandler : IRequestHandler<ApplyForJobCommand, Unit>
+public class AddEducationHandler : IRequestHandler<AddEducationCommand, Unit>
 {
     private readonly IUnitOfWork _uow;
 
     public AddEducationHandler(IUnitOfWork uow) => _uow = uow;
 
-    public async Task<Unit> Handle(ApplyForJobCommand request, CancellationToken cancellationToken)
+    public async Task<Unit> Handle(AddEducationCommand request, CancellationToken cancellationToken)
     {
         var profileRepo = _uow.Repository<PublicProfile>();
         var profile = (await profileRepo.FindAsync(p => p.UserId == request.UserId, cancellationToken)).FirstOrDefault();

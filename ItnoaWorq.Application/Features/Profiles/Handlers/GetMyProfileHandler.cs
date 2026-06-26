@@ -7,13 +7,13 @@ using ItnoaWorq.Application.Common.Mapping;
 
 namespace ItnoaWorq.Application.Profiles.Handlers;
 
-public class GetMyProfileHandler : IRequestHandler<GetJobByIdQuery, ProfileDto>
+public class GetMyProfileHandler : IRequestHandler<GetMyProfileQuery, ProfileDto>
 {
     private readonly IUnitOfWork _uow;
 
     public GetMyProfileHandler(IUnitOfWork uow) => _uow = uow;
 
-    public async Task<ProfileDto> Handle(GetJobByIdQuery request, CancellationToken cancellationToken)
+    public async Task<ProfileDto> Handle(GetMyProfileQuery request, CancellationToken cancellationToken)
     {
         var repo = _uow.Repository<PublicProfile>();
         var profile = (await repo.FindAsync(p => p.UserId == request.UserId)).FirstOrDefault();

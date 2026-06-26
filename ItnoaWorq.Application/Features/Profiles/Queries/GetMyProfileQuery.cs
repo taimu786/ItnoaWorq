@@ -3,4 +3,4 @@ using MediatR;
 
 namespace ItnoaWorq.Application.Features.Profiles.Queries;
 
-public record GetJobByIdQuery(Guid UserId) : IRequest<ProfileDto>;
+public record GetMyProfileQuery(Guid UserId) : IRequest<ProfileDto>;

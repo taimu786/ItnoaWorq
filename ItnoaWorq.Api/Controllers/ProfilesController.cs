@@ -31,7 +31,7 @@ public class ProfilesController : ControllerBase
 
     [HttpGet("me")]
     public async Task<ActionResult<ProfileDto>> GetMyProfile() =>
-        await _mediator.Send(new GetJobByIdQuery(GetUserId()));
+        await _mediator.Send(new GetMyProfileQuery(GetUserId()));
 
     [HttpPut("me")]
     public async Task<IActionResult> UpdateMyProfile([FromBody] ProfileDto dto)
@@ -50,7 +50,7 @@ public class ProfilesController : ControllerBase
     [HttpPost("me/education")]
     public async Task<IActionResult> AddEducation([FromBody] EducationDto dto)
     {
-        await _mediator.Send(new ApplyForJobCommand(GetUserId(), dto));
+        await _mediator.Send(new AddEducationCommand(GetUserId(), dto));
         return NoContent();
     }
 
